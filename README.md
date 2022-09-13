@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./www/images/logo.png" width="120px"/>
+    <img src="/www/images/logo-trainometer.png" width="120px"/>
 </div>
 
 <h1 align="center">TrainOmeter</h1>
