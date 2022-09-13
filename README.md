@@ -111,7 +111,7 @@ example).
     <img src="./www/images/features/trainometer-table-1-aggregated.png" alt="TrainOmeter Table 1 aggregated" width=800>
 </div>
 
-Aggregating by travel date and fixing the departure and dentation station can be
+Aggregating by travel date, and fixing the departure and destination station, can be
 handy when you want to report your travel history for reimbursing the commute
 expenses.
 
