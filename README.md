@@ -156,6 +156,26 @@ You may also need to install these two packages, e.g.:
 install.packages(c("DT", "shinyWidgets"))
 ```
 
+## Development
+
+Should the NS change the data export format in the future, the data
+pre-processing logic is encapsulated in the `load_ns_data` function, i.e.:
+
+https://github.com/mihaiconstantin/trainometer/blob/58908f5a49bf712b41eafcd9a997e704c62e0210/global.R#L77-L137
+
+Ensuring that `load_ns_data` returns a data frame that contains the following
+columns will keep the application running:
+
+- `date` - The date of the travel.
+- `day` - The day of the travel.
+- `check_in` - The check in time.
+- `check_out` - The check out time.
+- `departure` - The departure station.
+- `destination` - The destination station.
+- `product` - The type of product (e.g., train, bus etc.).
+- `transaction` - The transaction type (e.g., reis, deur tot deur etc.).
+- `price` - The costs associated with the product.
+
 ## Release Notes
 
 See the [CHANGELOG](CHANGELOG.md) file.
@@ -171,7 +191,7 @@ appreciated.
 [MIT license](LICENSE).
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-    <a property="dct:title" rel="cc:attributionURL" href="">
+    <a property="dct:title" rel="cc:attributionURL" href="https://github.com/mihaiconstantin/trainometer/tree/main/www/images/icons">
         Icons and logo
     </a>
     by
