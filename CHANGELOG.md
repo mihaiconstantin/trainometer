@@ -7,6 +7,6 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 - Add application interface.
 - Add helpers to process and format the data for displaying it in the tables.
-- Add sever logic for processing interface inputs and produce outputs.
-- Add download button to download processed and filtered data in `.csv` format.
+- Add server logic for processing interface inputs and producing outputs.
+- Add a button to download processed and filtered data in `.csv` format.
 - Add basic application documentation in the `README.md` file.
