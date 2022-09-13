@@ -1,0 +1,151 @@
+/* Styles. */
+
+/* Development styles. */
+.bg {
+    /* border: 1px solid darkgray; */
+}
+
+/* General styles. */
+
+.shadow {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 1rem;
+}
+
+.container {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+::placeholder {
+    font-size: 0.9rem;
+}
+
+.bi-controller, .bi-display {
+    color: var(--bs-gray-800);
+    margin-right: 0.4rem;
+}
+
+/* Header styles. */
+
+header  {
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+header h3 {
+    font-size: 1.5rem!important;
+}
+
+/* Controls styles. */
+
+#controls, #output {
+    margin-bottom: 2.4rem;
+    border-radius: 0.75rem;
+}
+
+.controls-wrapper, .output-wrapper {
+    padding: 1rem 1.5rem;
+}
+
+.controls-wrapper label {
+    font-size: 0.9rem;
+}
+
+.controls-wrapper .travel-days-text {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.controls-wrapper .travel-days-checkboxes .shiny-options-group > label {
+    margin-bottom: 0.3rem;
+}
+
+.controls-wrapper .travel-days-checkboxes .form-group {
+    margin-bottom: 0.85rem;
+}
+
+.controls-wrapper .aggregate {
+    border-top: 1px solid #e9ecef;
+    padding-top: 1.4rem;
+}
+
+.controls-wrapper .aggregate > div > div {
+    margin-bottom: 0.4rem;
+}
+
+/* Output styles. */
+
+.output-table-text {
+    font-size: 0.9rem;
+}
+
+.output-wrapper .output-table-main, .output-wrapper .output-table-days {
+    font-size: 0.8rem;
+    overflow-y: auto;
+}
+
+.output-wrapper .output-table-days-row {
+    border-top: 1px solid #e9ecef;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.output-wrapper .download-wrapper {
+    font-size: 0.7rem;
+}
+
+.output-wrapper .download-wrapper .download-link {
+    text-decoration: none;
+    padding: 0.25rem 0.7rem;
+    border-radius: 5rem;
+}
+
+/* Adjust spacing for table controls on small screens. */
+@media (max-width: 767px) {
+    .dataTables_length {
+        margin-bottom: 1rem;
+    }
+}
+
+.output-total {
+    border-top: 1px solid #e9ecef;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.output-total p {
+    margin-bottom: 0rem;
+}
+
+/* Footer styles. */
+
+footer {
+    font-size: 0.9rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e9ecef;
+    line-height: 2;
+    margin-bottom: 0.5rem;
+}
+
+footer .heart {
+    display: inline-block;
+    color: #c41b1b;
+    font-size: 1.3rem;
+    cursor: default;
+    transition: all .5s;
+}
+
+footer .heart:hover {
+    transform: rotate(360deg);
+}
+
+footer .github {
+    display: block;
+    margin-top: 0.2rem;
+}
+
+footer .github a {
+    color: #000000;
+}
