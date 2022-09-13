@@ -12,15 +12,15 @@
 
 <br>
 
-[**TrainOmeter**](https://trainometer.mihaiconstantin.com) is a simple
+[**TrainOmeter**](https://mihaiconstantin.shinyapps.io/trainometer/) is a simple
 [Shiny](https://shiny.rstudio.com) application designed to give you a quick
 overview of your travel history based on the cryptic `.csv` data exported from
 the [Mijn NS](https://www.ns.nl/mijnns) portal.
 
 <br><hr>
 <h3 align="center">
-    Check out the live application at
-    <a href="https://trainometer.mihaiconstantin.com">trainometer.mihaiconstantin.com</a>.
+    Check out the application at <br>
+    <a href="https://mihaiconstantin.shinyapps.io/trainometer/">mihaiconstantin.shinyapps.io/trainometer</a>
 </h3>
 <hr><br>
 
@@ -28,10 +28,10 @@ the [Mijn NS](https://www.ns.nl/mijnns) portal.
 
 ### Viewing and filtering NS data
 
-[**TrainOmeter**](https://trainometer.mihaiconstantin.com) allows you to quickly
-process the NS data export and filter it based on various inputs. Upon opening
-the application, you are presented with the following screen (i.e., see image
-below):
+[**TrainOmeter**](https://mihaiconstantin.shinyapps.io/trainometer/) allows you
+to quickly process the NS data export and filter it based on various inputs.
+Upon opening the application, you are presented with the following screen (i.e.,
+see image below):
 
 <div align="center">
     <h4>Application Structure</h4>
@@ -125,9 +125,9 @@ switch is on or not.
 ## Installation
 
 Aside from accessing the application at
-[trainometer.mihaiconstantin.com](https://trainometer.mihaiconstantin.com), you
-can also download and run it locally. To do so, you need to perform a series of
-steps.
+[mihaiconstantin.shinyapps.io/trainometer](https://mihaiconstantin.shinyapps.io/trainometer/),
+you can also download and run it locally. To do so, you need to perform a series
+of steps.
 
 First, download the repository, e.g.:
 
@@ -187,8 +187,8 @@ appreciated.
 
 ## License
 
-[`TrainOmeter`](https://trainometer.mihaiconstantin.com) is licensed under the
-[MIT license](LICENSE).
+[`TrainOmeter`](https://mihaiconstantin.shinyapps.io/trainometer/) is licensed
+under the [MIT license](LICENSE).
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
     <a property="dct:title" rel="cc:attributionURL" href="https://github.com/mihaiconstantin/trainometer/tree/main/www/images/icons">
