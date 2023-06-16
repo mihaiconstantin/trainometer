@@ -17,12 +17,14 @@
 overview of your travel history based on the cryptic `.csv` data exported from
 the [Mijn NS](https://www.ns.nl/mijnns) portal.
 
-<br><hr>
+<br>
+<hr>
 <h3 align="center">
     Check out the application at <br>
     <a href="https://mihaiconstantin.shinyapps.io/trainometer/">mihaiconstantin.shinyapps.io/trainometer</a>
 </h3>
-<hr><br>
+<hr>
+<br>
 
 ## Features
 
